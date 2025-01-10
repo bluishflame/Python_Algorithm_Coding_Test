@@ -43,10 +43,10 @@ for t in range(1, T+1):
     3) 결과 반환: K번째 수를 출력
 
 '''
+
+# 모범 답안
     
 '''
-# 모범 답안
-
 T = int(input())
 for t in range(T) : 
     N, s, e, k = map(int, input().split())
@@ -58,7 +58,6 @@ for t in range(T) :
 '''
 
 '''
-
 T = int(input())  
 for t in range(1, T + 1):
     N, s, e, k = map(int, input().split())  

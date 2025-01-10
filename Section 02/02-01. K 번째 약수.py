@@ -23,6 +23,8 @@ if len(list) >= K :
 else:
     print(-1)
 
+# 모범 답안
+
 '''
 n, k = map(int, input().split())
 cnt = 0
@@ -34,6 +36,7 @@ for i in range(1, n+1) :
         break
 else : 
     print(-1) 
+    
 '''
 
 '''
