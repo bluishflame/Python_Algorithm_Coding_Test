@@ -67,6 +67,7 @@ for t in range(1, T + 1):
     result = sliced_numbers[k-1]  
     
     print(f"#{t} {result}")
+    
 '''
 
 
@@ -80,4 +81,5 @@ for t in range(1, T + 1):
     2-3) 정렬: 해당 구간을 sorted() 함수를 이용해 오름차순 정렬
     2-4) K번째 수 찾기: 정렬된 리스트에서 k번째 값을 출력, 이때 Python에서는 k-1 인덱스를 사용해야 한다 
     2-5) 결과 출력: 각 케이스의 결과를 #1, #2 형태로 출력
+    
 '''
